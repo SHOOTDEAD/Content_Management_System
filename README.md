@@ -52,7 +52,7 @@ CMS is a Django-based web application that allows users to write and manage arti
 > Add images,files to your article.
 
 ### Share with the World
-> Once your article is ready, publish it.
+> Once your article is ready, publish it. <br>
 > Other users can see your articles.
 
 ### Directory Structure:
