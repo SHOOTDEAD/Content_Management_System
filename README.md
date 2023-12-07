@@ -7,54 +7,55 @@ CMS is a Django-based web application that allows users to write and manage arti
 ## Installation
 
 ### Prerequisites
-Make sure you have Python installed on your system. If not, download and install it from [python.org](https://www.python.org/downloads/).
+
+> Make sure you have Python installed on your system. If not, download and install it from [python.org](https://www.python.org/downloads/).
 
 ### Setup Virtual Environment (Optional but recommended)
 
-python -m venv venv
+> python -m venv venv
 
-On Windows:
+### On Windows:
 
-venv\Scripts\activate
+> venv\Scripts\activate
 
-On macOS/Linux:
+### On macOS/Linux:
 
-source venv/bin/activate
+> source venv/bin/activate
 
-Install Dependencies
+### Install Dependencies
 
-pip install -r requirements.txt
+> pip install -r requirements.txt
 
-Database Setup
+### Database Setup
 
-python manage.py migrate
+> python manage.py migrate
 
-Create Superuser (Admin)
+### Create Superuser (Admin)
 
-python manage.py createsuperuser
+> python manage.py createsuperuser
 
-Run the Development Server
+### Run the Development Server
 
-python manage.py runserver
+> python manage.py runserver
 
-Visit http://localhost:8000/admin/ to access the admin panel and start managing your content.
+> Visit http://localhost:8000/admin/ to access the admin panel and start managing your content.
 
-Troubleshooting and Support
+### Troubleshooting and Support
 
-If you encounter any difficulties during installation, please refer to the installation video for step-by-step guidance.
+> If you encounter any difficulties during installation, please refer to the installation video for step-by-step guidance.
 
-Usage
+### Usage
 
-Express Your Thoughts
-Create a account and start writing articles.
-Craft your thougths and ideas by creating a article.
-Add images,files to your article.
+### Express Your Thoughts
+> Create a account and start writing articles.
+> Craft your thougths and ideas by creating a article.
+> Add images,files to your article.
 
-Share with the World
-Once your article is ready, publish it.
-Other users can see your articles.
+### Share with the World
+> Once your article is ready, publish it.
+> Other users can see your articles.
 
-Directory Structure:
+### Directory Structure:
 '''bash
 cms
 ├── articles
