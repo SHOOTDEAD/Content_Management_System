@@ -47,8 +47,8 @@ CMS is a Django-based web application that allows users to write and manage arti
 ### Usage
 
 ### Express Your Thoughts
-> Create a account and start writing articles.
-> Craft your thougths and ideas by creating a article.
+> Create a account and start writing articles. <br>
+> Craft your thougths and ideas by creating a article.<br>
 > Add images,files to your article.
 
 ### Share with the World
