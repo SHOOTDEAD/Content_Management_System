@@ -56,10 +56,10 @@ CMS is a Django-based web application that allows users to write and manage arti
 > Other users can see your articles.
 
 ### Directory Structure:
-'''bash
+
 cms
 ├── articles
-│   ├── admin.py       -> Models registered to admin dashboard
+│   ├── admin.py       -> Models registered to admin dashboard 
 │   ├── apps.py
 │   ├── __init__.py
 │   ├── migrations
@@ -100,5 +100,13 @@ cms
 ├── db.sqlite3          -> Database
 ├── manage.py           -> Main file
 
-'''
 
+
+.
+├── build                   # Compiled files (alternatively `dist`)
+├── docs                    # Documentation files (alternatively `doc`)
+├── src                     # Source files (alternatively `lib` or `app`)
+├── test                    # Automated tests (alternatively `spec` or `tests`)
+├── tools                   # Tools and utilities
+├── LICENSE
+└── README.md
