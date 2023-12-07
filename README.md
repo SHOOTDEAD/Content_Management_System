@@ -43,8 +43,9 @@ CMS is a Django-based web application that allows users to write and manage arti
 ### Troubleshooting and Support:
 
 > If you encounter any difficulties during installation, please refer to the installation video for step-by-step guidance.
-<hr>  
-## Usage
+<hr>
+
+## Installation
 
 ### Express Your Thoughts:
 > Create a account and start writing articles. <br>
@@ -54,7 +55,8 @@ CMS is a Django-based web application that allows users to write and manage arti
 ### Share with the World:
 > Once your article is ready, publish it. <br>
 > Other users can see your articles.
-<hr>  
+<hr>
+
 ## Directory Structure
 
 cms <br>
