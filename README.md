@@ -55,7 +55,7 @@ Once your article is ready, publish it.
 Other users can see your articles.
 
 Directory Structure:
-'''
+'''bash
 cms
 ├── articles
 │   ├── admin.py       -> Models registered to admin dashboard
