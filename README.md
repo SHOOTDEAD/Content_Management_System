@@ -57,56 +57,45 @@ CMS is a Django-based web application that allows users to write and manage arti
 
 ### Directory Structure:
 
-cms
-├── articles
-│   ├── admin.py       -> Models registered to admin dashboard 
-│   ├── apps.py
-│   ├── __init__.py
-│   ├── migrations
-│   │   ├── 0001_initial.py
-│   │   ├── 0002_alter_article_files.py
-│   │   ├── 0003_alter_article_files.py
-│   │   ├── 0004_alter_article_files.py
-│   │   └── __init__.py
-│   ├── models.py      -> Articles model schema is defined here
-│   ├── tests.py       -> Tests are defined here
-│   ├── urls.py        -> URLs related to articles are routed here
-│   └── views.py       -> Article-related functionalities are defined here
-├── cms
-│   ├── asgi.py
-│   ├── __init__.py
-│   ├── settings.py    -> App is configured here
-│   ├── urls.py        -> Contains paths from all apps
-│   └── wsgi.py
-├── writers
-│   ├── admin.py 
-│   ├── apps.py
-│   ├── __init__.py
-│   ├── migrations
-│   │   └── __init__.py
-│   ├── models.py
-│   ├── tests.py       -> Tests are defined here
-│   ├── urls.py        -> URLs related to users are routed here
-│   └── views.py       -> User-related functionalities are defined here
-├── static
-│   ├── admin           -> Admin dashboard configurations
-│   │   ├── css
-│   │   ├── js
-│   │   ├── img
-│   └── article         -> Article components and User components and Home page
-│       └── files       -> User-uploaded files are stored here
-│   │   ├── css
-│   │   ├── img
-├── db.sqlite3          -> Database
-├── manage.py           -> Main file
-
-
-
-.
-├── build                   # Compiled files (alternatively `dist`)
-├── docs                    # Documentation files (alternatively `doc`)
-├── src                     # Source files (alternatively `lib` or `app`)
-├── test                    # Automated tests (alternatively `spec` or `tests`)
-├── tools                   # Tools and utilities
-├── LICENSE
-└── README.md
+cms <br>
+├── articles <br>
+│   ├── admin.py       -> Models registered to admin dashboard <br>
+│   ├── apps.py <br>
+│   ├── __init__.py <br>
+│   ├── migrations <br>
+│   │   ├── 0001_initial.py <br>
+│   │   ├── 0002_alter_article_files.py <br>
+│   │   ├── 0003_alter_article_files.py <br>
+│   │   ├── 0004_alter_article_files.py <br>
+│   │   └── __init__.py <br>
+│   ├── models.py      -> Articles model schema is defined here <br>
+│   ├── tests.py       -> Tests are defined here <br>
+│   ├── urls.py        -> URLs related to articles are routed here <br>
+│   └── views.py       -> Article-related functionalities are defined here <br>
+├── cms <br>
+│   ├── asgi.py <br>
+│   ├── __init__.py <br>
+│   ├── settings.py    -> App is configured here <br>
+│   ├── urls.py        -> Contains paths from all apps <br>
+│   └── wsgi.py <br>
+├── writers <br>
+│   ├── admin.py <br> 
+│   ├── apps.py <br>
+│   ├── __init__.py <br>
+│   ├── migrations <br>
+│   │   └── __init__.py <br>
+│   ├── models.py <br>
+│   ├── tests.py       -> Tests are defined here <br>
+│   ├── urls.py        -> URLs related to users are routed here <br>
+│   └── views.py       -> User-related functionalities are defined here <br>
+├── static <br>
+│   ├── admin           -> Admin dashboard configurations <br>
+│   │   ├── css <br>
+│   │   ├── js <br>
+│   │   ├── img <br>
+│   └── article         -> Article components and User components and Home page <br>
+│       └── files       -> User-uploaded files are stored here <br>
+│   │   ├── css <br>
+│   │   ├── img <br>
+├── db.sqlite3          -> Database <br>
+├── manage.py           -> Main file <br>
