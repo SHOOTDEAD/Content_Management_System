@@ -58,7 +58,7 @@ Directory Structure:
 
 cms
 ├── articles
-│   ├── admin.py  -> Models registered to admin dashboard
+│   ├── admin.py       -> Models registered to admin dashboard
 │   ├── apps.py
 │   ├── __init__.py
 │   ├── migrations
@@ -67,15 +67,15 @@ cms
 │   │   ├── 0003_alter_article_files.py
 │   │   ├── 0004_alter_article_files.py
 │   │   └── __init__.py
-│   ├── models.py -> Articles model schema is deefined here
-│   ├── tests.py -> Test are defined here
-│   ├── urls.py -> Urls related to articles are routed here
-│   └── views.py  -> Article related functionalities are defined here
+│   ├── models.py      -> Articles model schema is defined here
+│   ├── tests.py       -> Tests are defined here
+│   ├── urls.py        -> URLs related to articles are routed here
+│   └── views.py       -> Article-related functionalities are defined here
 ├── cms
 │   ├── asgi.py
 │   ├── __init__.py
-│   ├── settings.py -> App is configured here
-│   ├── urls.py -> Contains paths from all apps
+│   ├── settings.py    -> App is configured here
+│   ├── urls.py        -> Contains paths from all apps
 │   └── wsgi.py
 ├── writers
 │   ├── admin.py 
@@ -84,19 +84,20 @@ cms
 │   ├── migrations
 │   │   └── __init__.py
 │   ├── models.py
-│   ├── tests.py -> Test are defined here
-│   ├── urls.py -> Urls related to users are routed here
-│   └── views.py -> User related functionalities are defined here
+│   ├── tests.py       -> Tests are defined here
+│   ├── urls.py        -> URLs related to users are routed here
+│   └── views.py       -> User-related functionalities are defined here
 ├── static
-│   ├── admin -> admin dashboard configurations
+│   ├── admin           -> Admin dashboard configurations
 │   │   ├── css
 │   │   ├── js
 │   │   ├── img
-│   └── article -> Article components and User components and Home page
-│       └── files -> User uploaded files are stored here
+│   └── article         -> Article components and User components and Home page
+│       └── files       -> User-uploaded files are stored here
 │   │   ├── css
 │   │   ├── img
-├── db.sqlite3 -> database
-├── manage.py -> Main file
+├── db.sqlite3          -> Database
+├── manage.py           -> Main file
+
 
 
