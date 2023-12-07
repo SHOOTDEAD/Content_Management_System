@@ -6,11 +6,11 @@ CMS is a Django-based web application that allows users to write and manage arti
 
 ## Installation
 
-### Prerequisites
+### Prerequisites:
 
 > Make sure you have Python installed on your system. If not, download and install it from [python.org](https://www.python.org/downloads/).
 
-### Setup Virtual Environment (Optional but recommended)
+### Setup Virtual Environment: (Optional but recommended)
 
 > python -m venv venv
 
@@ -22,40 +22,40 @@ CMS is a Django-based web application that allows users to write and manage arti
 
 > source venv/bin/activate
 
-### Install Dependencies
+### Install Dependencies:
 
 > pip install -r requirements.txt
 
-### Database Setup
+### Database Setup:
 
 > python manage.py migrate
 
-### Create Superuser (Admin)
+### Create Superuser: (Admin)
 
 > python manage.py createsuperuser
 
-### Run the Development Server
+### Run the Development Server:
 
 > python manage.py runserver
 
 > Visit http://localhost:8000/admin/ to access the admin panel and start managing your content.
 
-### Troubleshooting and Support
+### Troubleshooting and Support:
 
 > If you encounter any difficulties during installation, please refer to the installation video for step-by-step guidance.
+<hr>  
+## Usage
 
-### Usage
-
-### Express Your Thoughts
+### Express Your Thoughts:
 > Create a account and start writing articles. <br>
 > Craft your thougths and ideas by creating a article.<br>
 > Add images,files to your article.
 
-### Share with the World
+### Share with the World:
 > Once your article is ready, publish it. <br>
 > Other users can see your articles.
-
-### Directory Structure:
+<hr>  
+## Directory Structure
 
 cms <br>
 ├── articles <br>
