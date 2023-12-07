@@ -59,7 +59,7 @@ CMS is a Django-based web application that allows users to write and manage arti
 
 cms <br>
 ├── articles <br>
-│   ├── admin.py       -> Models registered to admin dashboard <br>
+│   ├── admin.py &nbsp;&nbsp;&nbsp;&nbsp; -> Models registered to admin dashboard <br>
 │   ├── apps.py <br>
 │   ├── __init__.py <br>
 │   ├── migrations <br>
@@ -68,15 +68,15 @@ cms <br>
 │   │   ├── 0003_alter_article_files.py <br>
 │   │   ├── 0004_alter_article_files.py <br>
 │   │   └── __init__.py <br>
-│   ├── models.py      -> Articles model schema is defined here <br>
-│   ├── tests.py       -> Tests are defined here <br>
-│   ├── urls.py        -> URLs related to articles are routed here <br>
-│   └── views.py       -> Article-related functionalities are defined here <br>
+│   ├── models.py&nbsp;&nbsp;&nbsp;&nbsp;-> Articles model schema is defined here <br>
+│   ├── tests.py&nbsp;&nbsp;&nbsp;&nbsp;-> Tests are defined here <br>
+│   ├── urls.py&nbsp;&nbsp;&nbsp;&nbsp;-> URLs related to articles are routed here <br>
+│   └── views.py&nbsp;&nbsp;&nbsp;&nbsp;-> Article-related functionalities are defined here <br>
 ├── cms <br>
 │   ├── asgi.py <br>
 │   ├── __init__.py <br>
-│   ├── settings.py    -> App is configured here <br>
-│   ├── urls.py        -> Contains paths from all apps <br>
+│   ├── settings.py&nbsp;&nbsp;&nbsp;&nbsp;-> App is configured here <br>
+│   ├── urls.py&nbsp;&nbsp;&nbsp;&nbsp;-> Contains paths from all apps <br>
 │   └── wsgi.py <br>
 ├── writers <br>
 │   ├── admin.py <br> 
@@ -85,17 +85,17 @@ cms <br>
 │   ├── migrations <br>
 │   │   └── __init__.py <br>
 │   ├── models.py <br>
-│   ├── tests.py       -> Tests are defined here <br>
-│   ├── urls.py        -> URLs related to users are routed here <br>
-│   └── views.py       -> User-related functionalities are defined here <br>
+│   ├── tests.py&nbsp;&nbsp;&nbsp;&nbsp;-> Tests are defined here <br>
+│   ├── urls.py&nbsp;&nbsp;&nbsp;&nbsp;-> URLs related to users are routed here <br>
+│   └── views.py&nbsp;&nbsp;&nbsp;&nbsp;-> User-related functionalities are defined here <br>
 ├── static <br>
-│   ├── admin           -> Admin dashboard configurations <br>
+│   ├── admin&nbsp;&nbsp;&nbsp;&nbsp;-> Admin dashboard configurations <br>
 │   │   ├── css <br>
 │   │   ├── js <br>
 │   │   ├── img <br>
-│   └── article         -> Article components and User components and Home page <br>
-│       └── files       -> User-uploaded files are stored here <br>
+│   └── article&nbsp;&nbsp;&nbsp;&nbsp;-> Article components and User components and Home page <br>
+│       └── files&nbsp;&nbsp;&nbsp;&nbsp;-> User-uploaded files are stored here <br>
 │   │   ├── css <br>
 │   │   ├── img <br>
-├── db.sqlite3          -> Database <br>
-├── manage.py           -> Main file <br>
+├── db.sqlite3&nbsp;&nbsp;&nbsp;&nbsp;-> Database <br>
+├── manage.py&nbsp;&nbsp;&nbsp;&nbsp;-> Main file <br>
