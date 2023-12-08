@@ -1,5 +1,5 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Django](https://img.shields.io/badge/Django-3.2-green.svg)](https://www.djangoproject.com/)
+[![Django](https://img.shields.io/badge/Django-5.0-green.svg)](https://www.djangoproject.com/)
 # Content Management System (CMS)
 
 CMS is a Django-based web application that allows users to write and manage articles on various topics.
@@ -29,6 +29,15 @@ CMS is a Django-based web application that allows users to write and manage arti
 ### Database Setup:
 
 > python manage.py migrate
+
+### Generate Secret Key
+
+> python manage.py shell <br>
+> from django.core.management.utils import get_random_secret_key <br>
+> key = get_random_secret_key() <br>
+> print(key) <br>
+
+Copy the key and place it in settings.py
 
 ### Create Superuser: (Admin)
 
