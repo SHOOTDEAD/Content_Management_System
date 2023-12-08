@@ -1,0 +1,55 @@
+.navbar{
+  background-color: white;
+  border-bottom: 3px solid black;
+}
+.nav-link{
+  color: black;
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.container-fluid {
+  box-shadow: 0 5px 20px 0 black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  width: 40%;
+  height: 44%;
+}
+.col {
+  padding-bottom: 12px;
+}
+.form-control {
+  border: 3px solid black;
+  color: black;
+  box-shadow: 0 4px 8px 0 black;
+  background: none;
+}
+.form-control:focus {
+  color: black;
+  border: 3px solid black;
+  box-shadow: 0 4px 8px 0 black;
+  background: none;
+}
+.form-control::placeholder {
+  color: black;
+}
+h1{
+color:black;
+}
+.btn{
+  color: black;
+  background: none;
+  border: 2px solid black;
+  box-shadow: 0 1px 3px 0 black;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  
+  }
+  .row{
+    margin-bottom: 15px;
+  }

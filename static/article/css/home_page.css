@@ -1,0 +1,10 @@
+h1 {
+  color: azure;
+}
+.navbar{
+  background-color: white;
+  border-bottom: 3px solid black;
+}
+.nav-link{
+  color: black;
+}

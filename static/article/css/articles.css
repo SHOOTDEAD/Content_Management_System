@@ -1,0 +1,65 @@
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  .card {
+    height: 100%;
+    width: 100%;
+    background: none;
+    box-shadow: 0 5px 20px 0 black;
+  }
+  h3,
+  p {
+    color: black;
+    padding-left: 30px;
+    margin-bottom: 0px;
+  }
+  .row{
+    padding-bottom: 30px;
+    flex: 1;
+  }
+.container{
+    display: flex; 
+    flex-direction: column;
+}
+.navbar{
+  background-color: white;
+  border-bottom: 3px solid black;
+}
+.nav-link{
+  color: black;
+}
+.btn{
+  color: black;
+  background: none;
+  border: 2px solid black;
+  box-shadow: 0 1px 3px 0 black;
+  
+  }
+  h2{
+    margin-bottom: 2px;
+    padding-left: 10px;
+
+  }
+  .title{
+    padding-left: 90px;
+  }
+  .content{
+    padding-left: 120px;
+  }
+  .info{
+    padding-left: 10px;
+  }
+  b{
+    font-size: larger;
+  }
+  .page-link{
+    border: 2px solid black;
+    color: black;
+    box-shadow: 0 5px 20px 0 black
+  }
+ .a{
+  margin-bottom: 5px;
+ }
